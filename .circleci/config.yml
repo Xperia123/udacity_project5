@@ -14,9 +14,9 @@ jobs:
             name: install Linter run lint to check Dockerfile
             command: |
               # make setup
-              # python3 -m venv venv
-              # . venv/bin/activate
-              # make install
+              python3 -m venv venv
+              . venv/bin/activate
+              make install
               make lint
 
     push-docker:
