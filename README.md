@@ -40,31 +40,22 @@ Add Enviroment on CircleCI
 From running the above the following will be created.
 
 CIRCLECI FLOW:
-![Full pipline pass](./img/Screenshot-stages-pipline-pass.png)
+![Full pipline pass](./Image/Pipeline success.PNG)
 
 CircleCI build when the lint fails:
-![lint failing](./img/Screenshot-fail-make-lint.png)
+![lint failing](./Image/Check code false.PNG)
 
 CircleCI build when the lint pass:
-![lint pass](./img/Screenshot-make-lint-pass.png)
-
-Step build docker success
-![Screenshot build docker success](./img/Screenshot-build-docker-success.png)
-
-Step push image to docker hub:
-![Screenshot-push-docker-to-docker-hub](./img/Screenshot-push-docker-to-docker-hub.png)
+![lint pass](./Image/Check code pass.PNG)
 
 Build stack on Cloudformation:
-![Screenshot-cloudformation-create](./img/Screenshot-cloudformation-create.png)
+![Screenshot-cloudformation-create](./Image/CloudFormation create.PNG.png)
 
 Create EC2 Success:
-![Screenshot-ec2-runing](./img/Screenshot-ec2-runing.png)
+![Screenshot-ec2-runing](./Image/EC2 Running.PNG)
 
 Create EKS Success:
-![Application running in AWS](./img/Screenshot-eks-deloy.png)
+![Application running in AWS](./Image/Eks.PNG)
 
 Output:
-![Screenshot-output](./img/Screenshot-output.png)
-
-<h3>Author</h3>
-<a href = "https://github.com/dainh222/Udacity-AWS-DevOps-Engineer-Capstone-Project-5">GitHub</a>
+![Screenshot-output](./Image/output.PNG)
